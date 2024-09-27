@@ -3,5 +3,5 @@ then
   echo "virt-manager already installed"
 else 
   echo "installing virt-manager"
-  apt-get install virt-manager 
+  sudo apt install -y virt-manager 
 fi 
